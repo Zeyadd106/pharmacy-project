@@ -1,0 +1,218 @@
+{
+  "categories": [
+    {
+      "id": "cat-medicines",
+      "name": "Medicines",
+      "nameAr": "الأدوية",
+      "slug": "medicines",
+      "description": "Essential medicines and treatments",
+      "descriptionAr": "أدوية وعلاجات أساسية",
+      "image": "/images/categories/medicines.jpg",
+      "active": true
+    },
+    {
+      "id": "cat-health",
+      "name": "Health",
+      "nameAr": "الصحة",
+      "slug": "health",
+      "description": "Vitamins, supplements and wellness",
+      "descriptionAr": "فيتامينات ومكملات وعافية",
+      "image": "/images/categories/health.jpg",
+      "active": true
+    },
+    {
+      "id": "cat-beauty",
+      "name": "Beauty",
+      "nameAr": "الجمال",
+      "slug": "beauty",
+      "description": "Skin, hair and body care",
+      "descriptionAr": "العناية بالبشرة والشعر والجسم",
+      "image": "/images/categories/beauty.jpg",
+      "active": true
+    },
+    {
+      "id": "cat-medical",
+      "name": "Medical Products",
+      "nameAr": "مستلزمات طبية",
+      "slug": "medical-products",
+      "description": "Devices, monitors and first aid",
+      "descriptionAr": "أجهزة وإسعافات أولية",
+      "image": "/images/categories/medical.jpg",
+      "active": true
+    },
+    {
+      "id": "cat-personal",
+      "name": "Personal Care",
+      "nameAr": "العناية الشخصية",
+      "slug": "personal-care",
+      "description": "Daily hygiene and oral care",
+      "descriptionAr": "النظافة اليومية والعناية بالفم",
+      "image": "/images/categories/personal.jpg",
+      "active": true
+    },
+    {
+      "id": "cat-baby",
+      "name": "Baby Care",
+      "nameAr": "عناية الأطفال",
+      "slug": "baby-care",
+      "description": "Diapers, skincare and hygiene for babies",
+      "descriptionAr": "حفاضات وعناية ببشرة ونظافة الأطفال",
+      "image": "/images/categories/baby.jpg",
+      "active": true
+    }
+  ],
+  "products": [
+    {
+      "id": "p-vitamin-c",
+      "name": "Vitamin C 1000mg Effervescent (20 Tabs) - Demo",
+      "nameAr": "فيتامين سي 1000 مجم فوار (20 قرص) - تجريبي",
+      "slug": "vitamin-c-1000",
+      "description": "Demo product. Daily immune support supplement. Admin can replace this.",
+      "descriptionAr": "منتج تجريبي. مكمل دعم المناعة اليومي. يمكن للمدير استبداله.",
+      "price": 120,
+      "image": "/images/products/vitamin-c.jpg",
+      "stock": 60,
+      "active": true,
+      "requiresPrescription": false,
+      "categoryId": "cat-health",
+      "createdAt": "2026-09-16T00:00:00.000Z",
+      "updatedAt": "2026-09-16T00:00:00.000Z"
+    },
+    {
+      "id": "p-nivea-cream",
+      "name": "Nivea Soft Moisturizing Cream 200ml - Demo",
+      "nameAr": "كريم نيفيا سوفت المرطب 200 مل - تجريبي",
+      "slug": "nivea-soft-200",
+      "description": "Demo product. Moisturizing skin cream for face, body and hands.",
+      "descriptionAr": "منتج تجريبي. كريم مرطب للوجه والجسم واليدين.",
+      "price": 180,
+      "image": "/images/products/nivea.jpg",
+      "stock": 37,
+      "active": true,
+      "requiresPrescription": false,
+      "categoryId": "cat-beauty",
+      "createdAt": "2026-09-16T00:00:00.000Z",
+      "updatedAt": "2026-09-17T00:33:57.689Z"
+    },
+    {
+      "id": "p-thermometer",
+      "name": "Digital Thermometer - Demo",
+      "nameAr": "ترمومتر رقمي - تجريبي",
+      "slug": "digital-thermometer",
+      "description": "Demo product. Fast digital thermometer for home use.",
+      "descriptionAr": "منتج تجريبي. ترمومتر رقمي سريع للاستخدام المنزلي.",
+      "price": 150,
+      "image": "/images/products/thermometer.jpg",
+      "stock": 25,
+      "active": true,
+      "requiresPrescription": false,
+      "categoryId": "cat-medical",
+      "createdAt": "2026-09-16T00:00:00.000Z",
+      "updatedAt": "2026-09-16T00:00:00.000Z"
+    },
+    {
+      "id": "p-colgate",
+      "name": "Colgate Toothpaste 100ml - Demo",
+      "nameAr": "معجون أسنان كولجيت 100 مل - تجريبي",
+      "slug": "colgate-100",
+      "description": "Demo product. Daily oral care toothpaste.",
+      "descriptionAr": "منتج تجريبي. معجون عناية يومية بالفم.",
+      "price": 55,
+      "image": "/images/products/toothpaste.jpg",
+      "stock": 80,
+      "active": true,
+      "requiresPrescription": false,
+      "categoryId": "cat-personal",
+      "createdAt": "2026-09-16T00:00:00.000Z",
+      "updatedAt": "2026-09-16T00:00:00.000Z"
+    },
+    {
+      "id": "p-pampers",
+      "name": "Pampers Baby Diapers Size 3 (58 pcs) - Demo",
+      "nameAr": "حفاضات بامبرز مقاس 3 (58 قطعة) - تجريبي",
+      "slug": "pampers-size3",
+      "description": "Demo product. Baby diapers with soft absorbent layers.",
+      "descriptionAr": "منتج تجريبي. حفاضات أطفال بطبقات ماصة ناعمة.",
+      "price": 320,
+      "image": "/images/products/diapers.jpg",
+      "stock": 33,
+      "active": true,
+      "requiresPrescription": false,
+      "categoryId": "cat-baby",
+      "createdAt": "2026-09-16T00:00:00.000Z",
+      "updatedAt": "2026-09-16T21:04:19.926Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "ord-1789592659926",
+      "orderNumber": "PH-20260917-0001",
+      "customerName": "Ziad Mohamed",
+      "customerPhone": "54545454545454",
+      "customerAddress": "sdsaasdsadsadad",
+      "notes": "sdadadadsada",
+      "items": [
+        {
+          "productId": "p-pampers",
+          "productName": "Pampers Baby Diapers Size 3 (58 pcs) - Demo",
+          "quantity": 2,
+          "unitPrice": 320,
+          "subtotal": 640
+        }
+      ],
+      "totalAmount": 640,
+      "status": "OUT_FOR_DELIVERY",
+      "createdAt": "2026-09-16T21:04:19.927Z",
+      "updatedAt": "2026-09-16T21:05:23.347Z"
+    },
+    {
+      "id": "ord-1789605237689",
+      "orderNumber": "PH-20260917-0002",
+      "customerName": "Ziad Mohamed",
+      "customerPhone": "56423895665464",
+      "customerAddress": "fahmybk",
+      "notes": "123456879",
+      "items": [
+        {
+          "productId": "p-nivea-cream",
+          "productName": "Nivea Soft Moisturizing Cream 200ml - Demo",
+          "quantity": 3,
+          "unitPrice": 180,
+          "subtotal": 540
+        }
+      ],
+      "totalAmount": 540,
+      "status": "CONFIRMED",
+      "createdAt": "2026-09-17T00:33:57.689Z",
+      "updatedAt": "2026-09-17T00:34:17.730Z"
+    }
+  ],
+  "stores": [
+    {
+      "id": "store-main",
+      "name": "Dr. M. Hamed Pharmacy - Main Branch",
+      "nameAr": "صيدلية د / محمد حامد - الفرع الرئيسي",
+      "address": "Cairo, Egypt",
+      "phone": "01000000000",
+      "latitude": 30.0884225,
+      "longitude": 31.3030675,
+      "openingHours": "Daily 9:00 AM - 12:00 AM",
+      "active": true
+    }
+  ],
+  "messages": [],
+  "admin": {
+    "email": "admin@mohamedhamed.com",
+    "password": "admin123 (change in .env - hashed at runtime)"
+  },
+  "sessions": [
+    {
+      "token": "5a5b9c4b0990c081161d03fb7cee0fec116553d65cd168840a03c4e04a081ccd",
+      "expiresAt": "2026-09-17T09:04:36.627Z"
+    },
+    {
+      "token": "63fbec00e568770eb9e418b8d47db379044d3df3a4240a8b5821cffc4b0012b0",
+      "expiresAt": "2026-09-17T12:32:11.617Z"
+    }
+  ]
+}
